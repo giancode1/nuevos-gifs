@@ -37,7 +37,7 @@ export function App() {
 
   return (
     <div className="App">
-      <h1>Buscar Gifs</h1>
+      <h1>Buscar Gifs GC</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" value={inputValue} onChange={handleInputChange} />
         <button value="Submit">Buscar</button>

@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html,
+body {
+  background-color: #21232a;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica;
+}
+img {
+  border-radius: 6px;
+  max-height: 200px;
+}
+.imagenes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

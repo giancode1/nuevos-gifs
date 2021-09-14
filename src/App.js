@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Footer } from "./components/Footer";
 import { Item } from "./components/Item";
 
 export function App() {
@@ -46,6 +47,7 @@ export function App() {
       {images.map((img) => (
         <Item key={img.id} {...img} />
       ))}
+      <Footer />
     </div>
   );
 }
